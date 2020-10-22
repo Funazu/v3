@@ -120,7 +120,7 @@ bot.on('message', message => {
 	     .setTitle('Help Guide')
 	     .addField('Help 1', '**%help\n%info\n%profile**', true)
          .addField('Help 2', '**bang\nnambah biling bang\nindomie 1 bang\ngoreng bang\nrebus bang\nimage**', true)
-         .addField(`Help 3`, '**%trigger\n%stonk\n%delete**', true)
+         .addField(`Cooming Soon`, '**%trigger\n%stonk\n%delete**', true)
              .setColor(0xFF3003)
             message.channel.send(help);
         break;
