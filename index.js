@@ -118,7 +118,7 @@ bot.on('message', message => {
         case `help`:
             const help = new Discord.MessageEmbed()
 	     .setTitle('Help Guide')
-	     .addField('Help 1', '**%help\n%info\n%profile**', true)
+	     .addField('Help 1', '**%help\n%info\n%profile\n%update**', true)
          .addField('Help 2', '**bang\nnambah biling bang\nindomie 1 bang\ngoreng bang\nrebus bang\nimage**', true)
          .addField(`Cooming Soon`, '**%trigger\n%stonk\n%delete**', true)
              .setColor(0xFF3003)
