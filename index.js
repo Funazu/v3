@@ -118,8 +118,9 @@ bot.on('message', message => {
         case `help`:
             const help = new Discord.MessageEmbed()
 	     .setTitle('Help Guide')
-	     .addField('Help 1', '**%help,%info,%profile**')
-	     .addField('Help 2', '**bang, nambah biling bang, indomie 1 bang, goreng bang, rebus bang, image**')
+	     .addField('Help 1', '**%help\n%info\n%profile**', true)
+         .addField('Help 2', '**bang\nnambah biling bang\nindomie 1 bang\ngoreng bang\nrebus bang\nimage**', true)
+         .addField(`Help 3`, '**%trigger\n%stonk\n%delete**', true)
              .setColor(0xFF3003)
             message.channel.send(help);
         break;
