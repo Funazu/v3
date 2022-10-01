@@ -36,9 +36,9 @@ if(msg.content ===  "satu jam "){
         msg.reply('kalo 1 jam mending gausah dah kasian banyak yang nunggu?'); 
     }
 if(msg.content ===  "dua jam "){
-        msg.reply('oke, jangan nambah lagi, banyak yang nunggu'); 
+        msg.reply('oke, jangan nambah lagi, banyak yang nunggu sukususyss'); 
     }
-if(msg.content ===  "indomie 1 bang"){
+if(msg.content ===  "indomie 1 bang gas in ga sieee"){
         msg.reply('goreng apa rebus?'); 
     }
 if(msg.content ===  "goreng bang"){
@@ -119,7 +119,7 @@ bot.on('message', message => {
             const help = new Discord.MessageEmbed()
 	     .setTitle('Help Guide')
 	     .addField('Help 1', '**%help\n%info\n%profile\n%update**', true)
-         .addField('Help 2', '**bang\nnambah biling bang\nindomie 1 bang\ngoreng bang\nrebus bang\nimage**', true)
+         .addField('Help 2', '**bang\nnambah biling bang yang banyak bang\nindomie 1 bang\ngoreng bang\nrebus bang\nimage**', true)
          .addField(`Cooming Soon`, '**%trigger\n%stonk\n%delete**', true)
              .setColor(0xFF3003)
             message.channel.send(help);
