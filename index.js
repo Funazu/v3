@@ -29,6 +29,9 @@ bot.on(`message`, msg=>{
 if(msg.content ===  "nambah biling bang"){
         msg.reply('berapa jam?'); 
     }
+if(msg.content ===  "test"){
+        msg.reply('Apa yang sebenarnya kamu cari?'); 
+    }		
 if(msg.content ===  "a"){
         msg.reply('lag ya bro? yahahahahaha'); 
     }
