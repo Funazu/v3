@@ -18,7 +18,7 @@ bot.on(`message`, message => {
 
 Welcome(bot, {
     privatemsg : "Selamat Datang Di WarGame Bro",
-    publicmsg : "Halo @MEMBER Selamat Datang",
+    publicmsg : "Halo @MEMBER Selamat Datang kamu di ",
     publicchannel : "762892484438392852"
     })
     
@@ -40,6 +40,9 @@ if(msg.content ===  "dua jam "){
     }
 if(msg.content ===  "indomie 1 bang gas in ga sieee"){
         msg.reply('goreng apa rebus?'); 
+    }
+	if(msg.content ===  "ayin"){
+        msg.reply('Ayin Cantik Loch'); 
     }
 if(msg.content ===  "goreng bang"){
        msg.reply(`https://imgur.com/h8ymOGT`);
